@@ -1,6 +1,6 @@
-# iView-project
+# view-ui-project
 
-This project is build for Vue.js 2 + vue-router + webpack2 + iView 3, just install and run.
+This project is build for Vue.js 2 + vue-router + webpack2 + View UI (iView) 4, just install and run.
 
 ## Install
 ```bush

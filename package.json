@@ -1,7 +1,7 @@
 {
-  "name": "iview-project",
-  "version": "3.0.0",
-  "description": "A base project with Vue.js2、Vue-Router、webpack2 and with iView3.",
+  "name": "view-ui-project",
+  "version": "4.0.0",
+  "description": "A base project with Vue.js2、Vue-Router、webpack2 and with View UI 4.",
   "main": "index.js",
   "scripts": {
     "init": "webpack --progress --config webpack.dev.config.js",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iview/iview-project.git"
+    "url": "git+https://github.com/view-design/view-ui-project.git"
   },
   "author": "Aresn",
   "license": "MIT",
   "dependencies": {
-    "iview": "^3.0.0",
+    "view-design": "^4.0.0",
     "vue": "^2.5.16",
     "vue-router": "^2.8.1"
   },
