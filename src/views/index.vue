@@ -32,8 +32,8 @@
                     <img src="../images/logo.png">
                 </h1>
                 <h2>
-                    <p>Welcome to your iView app!</p>
-                    <Button @click="handleStart">Start iView</Button>
+                    <p>Welcome to your View UI app!</p>
+                    <Button @click="handleStart">Start View UI</Button>
                 </h2>
             </Col>
         </Row>
@@ -45,7 +45,7 @@
             handleStart () {
                 this.$Modal.info({
                     title: 'Bravo',
-                    content: 'Now, enjoy the convenience of iView.'
+                    content: 'Now, enjoy the convenience of View UI.'
                 });
             }
         }
