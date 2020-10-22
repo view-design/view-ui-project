@@ -35,9 +35,21 @@
                     <p>Welcome to your View UI app!</p>
                     <Button @click="handleStart">Start View UI</Button>
                 </h2>
+                <Button>Default</Button>
+                <Button type="primary">Primary</Button>
+                <Button type="dashed">Dashed</Button>
+                <Button type="text">Text</Button>
+                <br><br>
+                <Button type="info">Info</Button>
+                <Button type="success">Success</Button>
+                <Button type="warning">Warning</Button>
+                <Button type="error">Error</Button>
             </Col>
+
         </Row>
+
     </div>
+
 </template>
 <script>
     export default {

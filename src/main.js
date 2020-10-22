@@ -5,6 +5,7 @@ import Routers from './router';
 import Util from './libs/util';
 import App from './app.vue';
 import 'view-design/dist/styles/iview.css';
+import locale from 'view-design/dist/locale/en-US';
 
 Vue.use(VueRouter);
 Vue.use(ViewUI);
