@@ -1,4 +1,5 @@
 import menu from "./views/menu.vue"
+import layout from "./views/layout.vue"
 const routers = [
     {
         path: '/',
@@ -14,6 +15,10 @@ const routers = [
     {
         path: '/menu',
         component: menu
+    },
+    {
+        path: '/layout',
+        component: layout
     }
 ];
 export default routers;
